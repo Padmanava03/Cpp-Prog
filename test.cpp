@@ -1,8 +1,10 @@
 #include <iostream>
-#include <cmath>
+#include <vector>
 using namespace std;
 
 int main(){
-    cout << (int)pow(2, 2) << endl;
+    vector<int> a(10, 0);
+
+    cout << a.size() << endl;
     return 0;
 }
