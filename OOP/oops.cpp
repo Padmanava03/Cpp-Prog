@@ -32,10 +32,8 @@ class Teacher{
 
 int main(){
     Teacher T1("Mr. John", "CSE", "OOP", 50000);
-    Teacher T2("Mr. Doe", "EEE", "Circuit Theory", 45000);
 
     T1.info();
-    T2.info();
 
     return 0;
 }
